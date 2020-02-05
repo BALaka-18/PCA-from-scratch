@@ -7,4 +7,4 @@ from pca import PCA
 pca_model = PCA(n_component=2)
 pca_model.fit(x)
 print(pca_model.variance_ratio)
-print(pca_model.transform(data))
+print(pca_model.transform(data)).
