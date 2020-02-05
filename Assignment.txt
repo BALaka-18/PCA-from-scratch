@@ -1,0 +1,10 @@
+01. Create a python class PCA in “pca.py” to implement PCA (Principle component analysis)
+02. Read about PCA over here .
+03. The deliverable is a class that can be used as follows:
+from pca import PCA
+… .
+… .
+pca_model = PCA(n_component=2)
+pca_model.fit(x)
+print(pca_model.variance_ratio)
+print(pca_model.transform(data))
